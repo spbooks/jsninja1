@@ -1,0 +1,9 @@
+{
+  "name": "Quiz Ninja",
+  "version": "1.0.0",
+  "devDependencies": {
+      "gulp": "*",
+      "gulp-strip-debug": "*",
+      "gulp-uglify": "*"
+  }
+}

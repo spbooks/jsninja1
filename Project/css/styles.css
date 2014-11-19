@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 400px;
+  margin: 0 auto;
+  background: #fff;
+  height:100vh;
+}
+
+html{
+  background: #444;
+}
+
+h1{
+  font: bold 48px/150% Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #c00;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#output p{
+  font: bold 24px/150% Arial, Helvetica, sans-serif;
+  background: #ccc;
+  border: #999 2px solid;
+  color: #666;
+  text-align: center;
+  padding: 10px;
+  margin: 10px auto;
+  width: 300px;
+}
+
+#output .correct{
+  background: #0c0;
+  border-color: #090;
+  color: #060;
+}
+
+#output .wrong{
+  background: #c00;
+  border-color: #900;
+  color: #600;
+}
+
+header{
+  font: bold 32px/150% Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #c00;
+  text-align: center;
+}
+
+input, button {
+  font: bold 24px/150% Arial, Helvetica, sans-serif;
+  display: block;
+  width: 300px;
+  padding: 10px;
+  margin: 10px auto;
+}

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hero Form</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+   <form id="hero">
+    <label for="name" class="break">Name:</label>
+    <input type="text" name="name" autofocus required placeholder="Your Super Hero Name" maxlength=32 >
+    <label for="realName" class="break">Real Name:</label>
+    <input type="password" name="realName">
+    <p>Super Powers:</p>
+    <label for="flight">Flight:</label>
+    <input type="checkbox" value="Flight" name="powers">
+    <label for="strength">Super Strength:</label>
+    <input type="checkbox" value="Strength" name="powers">
+    <label for="speed">Super Speed:</label>
+    <input type="checkbox" value="Super Speed" name="powers">
+    <label for="energy">Energy Blasts:</label>
+    <input type="checkbox" value="Energy Blasts" name="powers">
+    <label for="telekinesis">Telekinesis:</label>
+    <input type="checkbox" value="Telekinesis" name="powers">
+    <p>What type of hero are you?</p>
+    <label>Hero:</label>
+    <input type="radio" name="type" value="Hero">
+    <label>Villain:</label>
+    <input type="radio" name="type" value="Villain">
+    <label>Anti-Hero:</label>
+    <input type="radio" name="type" value="Antihero">
+    <label for="City" class="break">Base of Operations:</label>
+    <select name="city">
+      <option value="" selected>Choose a City</option>
+      <option value="Metropolis">Metropolis</option>
+      <option value="Gotham City">Gotham City</option>
+      <option value="Keystone City">Keystone City</option>
+      <option value="Coast City">Coast City</option>
+      <option value="Star City">Star City</option>
+    </select>
+    <label for="origin" class="break">Origin Story:</label>
+    <textarea name="origin" rows="20" cols="60"></textarea>
+      <label for="age" class="break">Age:</label>
+      <input type="number" name="age" min=0 value="20" step=1>
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+  </form>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
